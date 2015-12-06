@@ -1,0 +1,106 @@
+extends layout
+
+block content
+  .navbar.navbar-default
+    .container-fluid.navbarCon
+      .navbar-header
+        h1.pageHeader Rando eCorp
+      a(href="http://localhost:3000/admin")
+        button.admin Admin
+  .container.form
+    .row
+      form
+        .col-lg-3.apply
+          h2.applyh2 Apply
+          .form-group.title
+            label First Name:
+            input#fName(type="text" name="fName" class="form-control"  placeholder="Enter First Name")
+          .form-group
+            label Last Name:
+            input#lName(type="text" name="lName" class="form-control"  placeholder="Enter Last Name")
+          .form-group
+            label Desired Job:
+            input#dJob(type="text" name="dJob" class="form-control"  placeholder="Enter Desired Job")
+          .form-group
+            label Desired Location:
+            .dLocationBox
+              label Remote:
+              input#dLocation(type="checkbox" name="remote" class="form-control")
+              label Specific Location:
+              label City:
+              input#dCity(type="text" name="dCity" class="form-control"  placeholder="Enter City")
+              label State:
+              input#dState(type="text" name="dState" class="form-control"  placeholder="Enter State")
+        .col-lg-9
+          h2 Employment History
+          .historyBox
+            .form-group
+              label Job Title:
+              input#title(type="text" name="title" class="form-control"  placeholder="Enter Job Title")
+            .form-group
+              label Employer:
+              input#employer(type="text" name="employer" class="form-control"  placeholder="Enter Employer")
+            .form-group
+              label City:
+              input#city(type="text" name="city" class="form-control"  placeholder="Enter City")
+            .form-group
+              label State:
+              input#state(type="text" name="state" class="form-control"  placeholder="Enter State")
+            .form-group.description
+              label Description:
+              textarea#Description(name="description" class="form-control"  placeholder="Enter Description")
+          .historyBox
+            .form-group
+              label Job Title:
+              input#title(type="text" name="title" class="form-control"  placeholder="Enter Job Title")
+            .form-group
+              label Employer:
+              input#employer(type="text" name="employer" class="form-control"  placeholder="Enter Employer")
+            .form-group
+              label City:
+              input#city(type="text" name="city" class="form-control"  placeholder="Enter City")
+            .form-group
+              label State:
+              input#state(type="text" name="state" class="form-control"  placeholder="Enter State")
+            .form-group.description
+              label Description:
+              textarea#Description(name="description" class="form-control"  placeholder="Enter Description")
+          .historyBox
+            .form-group
+              label Job Title:
+              input#title(type="text" name="title" class="form-control"  placeholder="Enter Job Title")
+            .form-group
+              label Employer:
+              input#employer(type="text" name="employer" class="form-control"  placeholder="Enter Employer")
+            .form-group
+              label City:
+              input#city(type="text" name="city" class="form-control"  placeholder="Enter City")
+            .form-group
+              label State:
+              input#state(type="text" name="state" class="form-control"  placeholder="Enter State")
+            .form-group.description
+              label Description:
+              textarea#Description(name="description" class="form-control"  placeholder="Enter Description")
+          textarea.form-group.skills(name="skills" class="form-control" placeholder="list Skills")
+          input#submit(type="submit" class="form-control" placeholder="Submit Form")
+
+//<div class="container form">
+//<h2>Let's Get Started</h2>
+//<form role="form">
+//<div class="form-group">
+//<label for="email">Email:</label>
+//<input type="email" class="form-control" id="email" placeholder="Enter email">
+//</div>
+//<div class="form-group">
+//<label for="pwd">Password:</label>
+//<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+//</div>
+//<div class="checkbox">
+//<label><input type="checkbox"> Remember me</label>
+//</div>
+//<div class="row">
+//<button type="submit" class="btn btn-default"><span>Login</span></button>
+//<button type="submit" class="btn btn-default"><span>Create</span></button>
+//</div>
+//</form>
+//</div>
